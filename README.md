@@ -29,7 +29,6 @@ A responsive and modern personal portfolio website template to showcase my skill
 ## 📁 Features
 
 - 🌐 Fully responsive design for all devices  
-- 🧑‍💻 Projects section with GitHub/live links  
 - 📄 Downloadable resume  
 - 📬 Contact form  
 - 🎨 Smooth animations and transitions
