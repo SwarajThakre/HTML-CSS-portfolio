@@ -20,10 +20,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script
-      src="https://kit.fontawesome.com/3ba0b6255e.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="./assets/style/style.css" />
     <title>My Portfolio</title>
   </head>
@@ -43,6 +39,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="my-skills.html">Skills</a>
@@ -72,20 +71,26 @@
             <p class="hero-para">
               I'm a web developer with a passion for creating beautiful and
               functional websites. I specialize in using HTML, CSS, and JS to
-              build modern and responsive web applications.
+              build modern and responsive web Design and Development.
             </p>
             <div class="hero-btn">
-              <a href="contact.html" class="btn">Contact Me</a>
+              <a href="contact.html" class="btn">Hire Me</a>
               <a
-                href="https://drive.google.com/file/d/1DA8yVlC7bmMFFuE7phAV7lM-cs28egzq/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1wLQu3d7mrBuSIBYblyAlmVNXDwLkfhyA/view?usp=drive_link"
                 class="btn"
-                >Download CV</a
-              >
+                >Download CV
+              </a>
             </div>
           </div>
           <div class="section-hero--image" data-aos="fade-up">
             <figure>
-              <img src="./assets/images/main-hero.png" alt="hero image" />
+              <img
+                src="./assets/images/main-hero.webp"
+                alt="hero image"
+                class="hero-image"
+              />
             </figure>
           </div>
         </div>
@@ -131,7 +136,11 @@
       <div class="container grid grid-three-columns">
         <div class="about-div" data-aos="fade-up">
           <div class="icon">
-            <img src="./assets/images/research.png" alt="research" />
+            <img
+              src="./assets/images/research.png"
+              loading="lazy"
+              alt="research"
+            />
           </div>
           <h3 class="section-title">UI/Visual Design</h3>
           <p>
@@ -141,7 +150,11 @@
         </div>
         <div class="about-div" data-aos="fade-up" data-aos-delay="200">
           <div class="icon">
-            <img src="./assets/images/Coding.png" alt="research" />
+            <img
+              src="./assets/images/Coding.png"
+              loading="lazy"
+              alt="research"
+            />
           </div>
           <h3 class="section-title">Web Development</h3>
           <p>
@@ -151,7 +164,11 @@
         </div>
         <div class="about-div" data-aos="fade-up" data-aos-delay="400">
           <div class="icon">
-            <img src="./assets/images/design.png" alt="research" />
+            <img
+              src="./assets/images/design.png"
+              loading="lazy"
+              alt="research"
+            />
           </div>
           <h3 class="section-title">Web Design</h3>
           <p>
@@ -207,12 +224,13 @@
             data-aos="zoom-in-up"
             data-aos-delay="200"
           >
-            <figure>
-              <img
-                src="./assets/images/iPhone-13-PRO-127.0.0.1.png"
-                alt="Mobile Photo"
-              />
-            </figure>
+            <a href="https://swarajthakre26.netlify.app/">
+              <figure>
+                <img
+                  src="./assets/images/iPhone-13-PRO-127.0.0.1.png"
+                  alt="Mobile Photo"
+                /></figure
+            ></a>
           </div>
 
           <!-- right side -->
@@ -266,7 +284,11 @@
           </div>
         </div>
         <div class="contact-image">
-          <img src="./assets/images/main.png" alt="Contact Image" />
+          <img
+            src="./assets/images/main.webp"
+            loading="lazy"
+            alt="Contact Image"
+          />
         </div>
       </div>
     </section>
@@ -281,15 +303,27 @@
           <p>&copy; 2023 My Portfolio. All rights reserved.</p>
           <div class="social-links">
             <a
-              href="https://www.linkedin.com/in/swaraj-thakre-7461681b6"
+              href="https://www.linkedin.com/in/swaraj-thakre2629/"
               target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
             >
               <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://www.facebook.com/swaraj.thakre.98" target="_blank">
+            <a
+              href="https://www.facebook.com/swaraj.thakre.98"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Facebook"
+            >
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://x.com/thakre_swaraj" target="_blank">
+            <a
+              href="https://x.com/thakre_swaraj"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Twitter"
+            >
               <i class="fa-brands fa-twitter"></i>
             </a>
           </div>
@@ -299,6 +333,7 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="#section-skills">Skills</a></li>
             <li><a href="#section-contact">Contact</a></li>
           </ul>
@@ -325,6 +360,11 @@
     <!-- footer section ends here -->
     <!-- script section starts here -->
     <!-- <script src="./assets/js/main.js"></script> -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/3ba0b6255e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
